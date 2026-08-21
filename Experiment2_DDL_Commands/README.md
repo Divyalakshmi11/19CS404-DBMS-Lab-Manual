@@ -104,35 +104,32 @@ CREATE TABLE Table_Name (
 ```
 
 **Question 1**
---
+
 <img width="1167" height="240" alt="Screenshot 2026-08-21 084621" src="https://github.com/user-attachments/assets/084e98e6-4b69-45e4-88ac-35a4de2f398d" />
 
- sql 
+ sql <img width="641" height="53" alt="Screenshot 2026-08-21 084826" src="https://github.com/user-attachments/assets/b1a7417e-ff16-4873-aee9-2897c5d644b5" />
 
-<img width="641" height="53" alt="Screenshot 2026-08-21 084826" src="https://github.com/user-attachments/assets/ca5d848f-e4bb-4945-bcf5-5045c4a18abb" />
+
 
 **Output:**
-<img width="1215" height="388" alt="Screenshot 2026-08-21 085211" src="https://github.com/user-attachments/assets/6f5f515d-bc81-43f3-8987-98663c36ef4f" />
+<img width="1237" height="332" alt="Screenshot 2026-08-21 085043" src="https://github.com/user-attachments/assets/167e4ae0-ce13-4e03-a32e-a7de91926c75" />
 
-
-![Output1](output.png)
 
 **Question 2**
----
-<img width="1237" height="332" alt="Screenshot 2026-08-21 085043" src="https://github.com/user-attachments/assets/a7642efc-8c3c-44da-92a8-25fe6a87eb80" />
+<img width="1215" height="388" alt="Screenshot 2026-08-21 085211" src="https://github.com/user-attachments/assets/efdf2f08-3c5d-4e78-8b99-1dba1d27685e" />
 
 sql
-<img width="540" height="197" alt="Screenshot 2026-08-21 085317" src="https://github.com/user-attachments/assets/7f30c039-5ed7-45fb-bb37-c5c0cf3babd5" />
-
+<img width="540" height="197" alt="Screenshot 2026-08-21 085317" src="https://github.com/user-attachments/assets/7ae16743-69b9-41c9-8c6e-0d0bf1e8fedb" />
 
 
 **Output:**
+<img width="1235" height="425" alt="Screenshot 2026-08-21 085406" src="https://github.com/user-attachments/assets/7a2876bf-dda8-4192-9511-db4aa1f5df22" />
 
-![Output2](output.png)<img width="1235" height="425" alt="Screenshot 2026-08-21 085406" src="https://github.com/user-attachments/assets/4aafbfca-8a01-496b-a4f9-c63cbe195d46" />
+
 
 
 **Question 3**
----
+
 <img width="993" height="437" alt="Screenshot 2026-08-21 085509" src="https://github.com/user-attachments/assets/c7e9bdf4-f373-4d0f-b102-effaf157a223" />
 
 sql
@@ -142,7 +139,7 @@ sql
 
 **Output:**
 
-![Output3](output.png)<img width="1237" height="503" alt="Screenshot 2026-08-21 085714" src="https://github.com/user-attachments/assets/662d2ad6-7f4d-409c-bea6-34e8761e65b3" />
+<img width="1237" height="503" alt="Screenshot 2026-08-21 085714" src="https://github.com/user-attachments/assets/662d2ad6-7f4d-409c-bea6-34e8761e65b3" />
 
 
 **Question 4**
@@ -159,7 +156,7 @@ sql
 
 <img width="1237" height="372" alt="Screenshot 2026-08-21 085951" src="https://github.com/user-attachments/assets/62a2e2a2-b577-45b0-8458-3f3138e82878" />
 
-![Output4](output.png)
+
 
 **Question 5**
 
@@ -177,7 +174,6 @@ sql
 <img width="1236" height="432" alt="Screenshot 2026-08-21 090143" src="https://github.com/user-attachments/assets/81aca84c-07f3-4575-bebf-50190212fe51" />
 
 
-![Output5](output.png)
 
 **Question 6**
 
@@ -197,8 +193,6 @@ sql
 
 
 
-![Output6](output.png)
-
 **Question 7**
 
 <img width="961" height="397" alt="Screenshot 2026-08-21 091016" src="https://github.com/user-attachments/assets/0a46442e-3241-4d4d-afba-1e74ceea6f96" />
@@ -217,7 +211,6 @@ sql
 <img width="1263" height="471" alt="Screenshot 2026-08-21 091138" src="https://github.com/user-attachments/assets/ddac6cee-4654-4b3f-b760-217c7fee3713" />
 
 
-![Output7](output.png)
 
 **Question 8**
 
@@ -234,7 +227,7 @@ sql
 
 <img width="1232" height="407" alt="Screenshot 2026-08-21 091508" src="https://github.com/user-attachments/assets/4a9a5635-29d5-428a-a43f-c9e75dd75b3d" />
 
-![Output8](output.png)
+
 
 **Question 9**
 
@@ -250,7 +243,7 @@ sql
 
 <img width="1243" height="352" alt="Screenshot 2026-08-21 091913" src="https://github.com/user-attachments/assets/7b57d52d-56a8-440e-b83b-3942dce5fbd5" />
 
-![Output9](output.png)
+
 
 **Question 10**
 
