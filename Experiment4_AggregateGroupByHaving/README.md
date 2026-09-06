@@ -38,121 +38,132 @@ HAVING condition;
 
 **Question 1**
 --
--- Paste Question 1 here
+<img width="1082" height="634" alt="image" src="https://github.com/user-attachments/assets/6dc01471-9d1f-4c6b-a900-eb11eb30b028" />
 
-```sql
--- Paste your SQL code below for Question 1
-```
+
+sql
+
+select Medication,count() as TotalPrescriptions
+from Prescriptions
+group by Medication
 
 **Output:**
 
-![Output1](output.png)
+<img width="1073" height="735" alt="image" src="https://github.com/user-attachments/assets/6370950d-28df-4b22-adca-8a80d342c1ca" />
+
 
 **Question 2**
----
--- Paste Question 2 here
+<img width="1066" height="628" alt="image" src="https://github.com/user-attachments/assets/58e972ab-01d8-4862-8902-b3a733287292" />
 
-```sql
--- Paste your SQL code below for Question 2
-```
+
+sql
+select DoctorID,count() as TotalPrescriptions from Prescriptions
+group by DoctorID
 
 **Output:**
+<img width="1043" height="741" alt="image" src="https://github.com/user-attachments/assets/9bbef230-3ce8-421b-84d5-9dba4c38fb58" />
 
-![Output2](output.png)
 
 **Question 3**
----
--- Paste Question 3 here
+<img width="1064" height="548" alt="image" src="https://github.com/user-attachments/assets/cc483e75-b295-41e0-ad80-56d9479503cf" />
 
-```sql
--- Paste your SQL code below for Question 3
-```
+sql
+SELECT PatientID,COUNT() as TotalRecords
+from MedicalRecords
+group by PatientID
 
 **Output:**
+<img width="738" height="623" alt="image" src="https://github.com/user-attachments/assets/6ceab914-beda-4919-afc3-0bd1761064a0" />
 
-![Output3](output.png)
 
 **Question 4**
----
--- Paste Question 4 here
+<img width="765" height="475" alt="image" src="https://github.com/user-attachments/assets/52ad6f61-ab4e-4162-b236-6a079f7cf635" />
 
-```sql
--- Paste your SQL code below for Question 4
-```
+sql
+select name,length(name) as length from customer
+ORDER BY LENGTH(name) DESC
+LIMIT 1
 
 **Output:**
-
-![Output4](output.png)
+<img width="769" height="400" alt="image" src="https://github.com/user-attachments/assets/44ac4067-936a-4114-bf95-9a01a4aa1688" />
 
 **Question 5**
----
--- Paste Question 5 here
+<img width="829" height="491" alt="image" src="https://github.com/user-attachments/assets/9a877afe-26cc-42f8-9386-b4795b0e0b0b" />
 
-```sql
--- Paste your SQL code below for Question 5
-```
+sql
+select sum(income) as 'total_income' from employee
+where age>=40
+
 
 **Output:**
+<img width="526" height="304" alt="image" src="https://github.com/user-attachments/assets/25aae053-1b32-4619-bab2-663d2a338ab1" />
 
-![Output5](output.png)
 
 **Question 6**
----
--- Paste Question 6 here
+<img width="1050" height="514" alt="image" src="https://github.com/user-attachments/assets/2360ab62-5aad-421c-bf8d-b962f0ad2702" />
 
-```sql
--- Paste your SQL code below for Question 6
-```
+sql
+select COUNT(DISTINCT(salesman_id)) as 'COUNT' FROM orders
+
 
 **Output:**
+<img width="493" height="333" alt="image" src="https://github.com/user-attachments/assets/c263708a-7e86-49b8-820c-1fcf5d7d8c0e" />
+
 
 ![Output6](output.png)
 
 **Question 7**
----
--- Paste Question 7 here
+<img width="1139" height="485" alt="image" src="https://github.com/user-attachments/assets/00ed2004-d425-42e5-a2d8-8a2df94d1536" />
 
-```sql
--- Paste your SQL code below for Question 7
-```
+sql
+select max(age) - min(age) as 'age_difference' from employee
+
 
 **Output:**
+<img width="638" height="319" alt="image" src="https://github.com/user-attachments/assets/b44c384b-52d1-450a-a8e7-c7531184f6b1" />
 
-![Output7](output.png)
 
 **Question 8**
----
--- Paste Question 8 here
+<img width="1246" height="556" alt="image" src="https://github.com/user-attachments/assets/4cd4009a-7a3f-4184-a862-85a8961090d3" />
 
-```sql
--- Paste your SQL code below for Question 8
-```
+sql
+select category_id, sum(price*category_id) as 'Revenue' from products
+group by category_id
+having Revenue > 25
 
 **Output:**
+<img width="798" height="454" alt="image" src="https://github.com/user-attachments/assets/be2c3c38-e3c3-452c-afb1-1778693d35d7" />
+
 
 ![Output8](output.png)
 
 **Question 9**
----
--- Paste Question 9 here
+<img width="979" height="546" alt="image" src="https://github.com/user-attachments/assets/0df10adf-d1df-4909-82af-1d055a054c4e" />
 
-```sql
--- Paste your SQL code below for Question 9
-```
+sql
+select PatientID,COUNT(*) AS 'TotalRecords' from MedicalRecords
+group by PatientID
+HAVING TotalRecords > 3
+
 
 **Output:**
+<img width="902" height="391" alt="image" src="https://github.com/user-attachments/assets/f63a96e8-fbe8-42a9-9787-7e8e5bec9f14" />
+
 
 ![Output9](output.png)
 
 **Question 10**
----
--- Paste Question 10 here
+<img width="1327" height="532" alt="image" src="https://github.com/user-attachments/assets/b9b19aed-420a-4170-85f0-f33c222704ca" />
 
-```sql
--- Paste your SQL code below for Question 10
-```
+sql
+select category_id,count(*) as COUNT FROM products
+group by category_id
+having category_id>2
+
 
 **Output:**
+<img width="735" height="397" alt="image" src="https://github.com/user-attachments/assets/09861e50-eea8-43ce-8df0-aa40cc222200" />
+
 
 ![Output10](output.png)
 
