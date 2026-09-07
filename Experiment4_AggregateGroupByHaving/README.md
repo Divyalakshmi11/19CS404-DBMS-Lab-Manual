@@ -37,7 +37,7 @@ HAVING condition;
 ```
 
 **Question 1**
---
+
 <img width="1082" height="634" alt="image" src="https://github.com/user-attachments/assets/6dc01471-9d1f-4c6b-a900-eb11eb30b028" />
 
 
@@ -110,8 +110,6 @@ select COUNT(DISTINCT(salesman_id)) as 'COUNT' FROM orders
 <img width="493" height="333" alt="image" src="https://github.com/user-attachments/assets/c263708a-7e86-49b8-820c-1fcf5d7d8c0e" />
 
 
-![Output6](output.png)
-
 **Question 7**
 <img width="1139" height="485" alt="image" src="https://github.com/user-attachments/assets/00ed2004-d425-42e5-a2d8-8a2df94d1536" />
 
@@ -135,7 +133,6 @@ having Revenue > 25
 <img width="798" height="454" alt="image" src="https://github.com/user-attachments/assets/be2c3c38-e3c3-452c-afb1-1778693d35d7" />
 
 
-![Output8](output.png)
 
 **Question 9**
 <img width="979" height="546" alt="image" src="https://github.com/user-attachments/assets/0df10adf-d1df-4909-82af-1d055a054c4e" />
@@ -150,7 +147,6 @@ HAVING TotalRecords > 3
 <img width="902" height="391" alt="image" src="https://github.com/user-attachments/assets/f63a96e8-fbe8-42a9-9787-7e8e5bec9f14" />
 
 
-![Output9](output.png)
 
 **Question 10**
 <img width="1327" height="532" alt="image" src="https://github.com/user-attachments/assets/b9b19aed-420a-4170-85f0-f33c222704ca" />
@@ -165,7 +161,7 @@ having category_id>2
 <img width="735" height="397" alt="image" src="https://github.com/user-attachments/assets/09861e50-eea8-43ce-8df0-aa40cc222200" />
 
 
-![Output10](output.png)
+
 
 
 ## RESULT
